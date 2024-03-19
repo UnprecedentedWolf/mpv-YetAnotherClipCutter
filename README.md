@@ -2,7 +2,7 @@
 "Why make yet another clip-cutting plugin?" I've been unable to configure any pre-existing plugins for my specific needs (either because of their limitations, or because I simply didn't understand their configuration formats). My goal has been to create a simple conduit between MPV and FFMPEG and that's how it started. 
 
 ### What does it do out of the box?
-After putting the plugin in your mpv/mpv/scripts folder and manually edditing the lua file to set your ffmpeg path, your desired clip output folder, and your preferred keybindings, the plugin will allow you to create one of 5 types of clips: 
+After downloading and putting yetAnotherClipCutter.lua into your mpv/mpv/scripts folder, and then manually edditing the file to set your ffmpeg path, your desired clip output folder, and your preferred keybindings, the plugin will allow you to create one of 5 types of clips: 
 1) a simple reencoded H264 MP4 with accuracy down to the frame you timestamped
 2) same thing but burning in your current subtitle track
 3) a resized 432p gif

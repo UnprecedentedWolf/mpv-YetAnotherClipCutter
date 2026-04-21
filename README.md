@@ -9,5 +9,7 @@ After downloading and putting yetAnotherClipCutter.lua into your mpv/mpv/scripts
 4) a cropped gif (works with cropping with e.g. [occivink/mpv-scripts/crop.lua](https://github.com/occivink/mpv-scripts/blob/d0390c8e802c2e888ff4a2e1d5e4fb040f855b89/scripts/crop.lua))
 5) a non-reencoded MP4, using nearest keyframe as starting point
 
+Note it only works for local files - I don't know if it's possible to pass a chunk of video streamed via yt-dlp to ffmpeg.
+
 ### What's next?
 My next goal is to simplify command formatting, so that anyone with knowledge of FFMPEG will be able to easily write their intended commands into plugin-friendly format without needing knowledge of LUA, mpv API or any other programming patterns. Then provide documentation for common cases and where to point people who don't know much about FFMPEG.

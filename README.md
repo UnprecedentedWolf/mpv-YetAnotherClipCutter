@@ -2,7 +2,7 @@
 "Why make yet another clip-cutting plugin?" I've been unable to configure any pre-existing plugins for my specific needs (either because of their limitations, or because I simply didn't understand their configuration formats). My goal has been to create a simple conduit between MPV and FFMPEG and that's how it started. 
 
 ### Getting started
-Download and put yetAnotherClipCutter.lua into your mpv/mpv/scripts folder and yetAnotherClipCutter.conf into mpv/mpv/script-opts folder. If you don't have ffmpeg in your PATH, you'll need to go to the .conf file and specify the path to your ffmpeg.exe (if you don't have ffmpeg.exe on your pc, get it from https://ffmpeg.org/). While you're at it, you can set your key bindings and where you want your clips to be saved.
+Download and put **yetAnotherClipCutter.lua** into your `mpv/mpv/scripts` folder and **yetAnotherClipCutter.conf** into `mpv/mpv/script-opts` folder. If you don't have ffmpeg in your PATH, you'll need to go to the .conf file and specify the path to your ffmpeg.exe (if you don't have ffmpeg.exe on your pc, get it from https://ffmpeg.org/). While you're at it, you can set your key bindings and where you want your clips to be saved.
 
 ### What does it do out of the box?
 Here's the type of clips you can make by default:

@@ -15,6 +15,6 @@ Here's the type of clips you can make by default:
 Note it only works for local files - I don't know of a method to pass a chunk of video streamed via yt-dlp to ffmpeg.
 
 ### Customizing
-You can add and remove clipping modes the same way you would write the ffmpeg commands inside the .conf file. Maybe you'll find this [cheat sheet](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730) or this [tutorial](https://research.mach1.tech/tutorials/ffmpeg-useful-commands/) useful - otherwise dive into the [documentation](https://ffmpeg.org/ffmpeg.html), or just do a web search.
+You can add and remove clipping modes inside the .conf file the same way you would write the ffmpeg commands in terminal. Maybe you'll find this [cheat sheet](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730) or this [tutorial](https://research.mach1.tech/tutorials/ffmpeg-useful-commands/) useful - otherwise dive into the [documentation](https://ffmpeg.org/ffmpeg.html), or just do a web search.
 
 You shouldn't need to ever touch the .lua file unless you want to make some sort of architectural changes I can't think of.
